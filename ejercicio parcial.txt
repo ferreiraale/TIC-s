@@ -12,7 +12,7 @@ Algoritmo sin_titulo
 	FinPara
 	
 	Para i<-1 hasta 4 con paso 1 hacer
-	Escribir "Los valores ingresados son: ",A[i]
+		Escribir "Los valores ingresados son: ",A[i]
 	finpara
 	
 	Para i<-1 Hasta 6 con paso 1 Hacer
@@ -41,8 +41,9 @@ Algoritmo sin_titulo
 		D[i]=A[i]
 	FinPara
 	
-	Para i<-10 Hasta 5 Hacer
-		D[i]<-B[i-4]
+	Para i<-1 Hasta 6 Hacer
+		D[i]<-B[7-i]
+		Escribir D[i]//OSCAR, PONELE ESTO ASÍ CONTROLÁS LINEA A LINEA CUÁL EL PROBLEMA SI LO HUBIESE. LUEGO LO NINGUNEÁS ANTECEDIÉNDOLE DOBLE SLASH: //
 	FinPara
 	
 	Escribir "La union del grupo 1 con el inverso del 2 es: "
