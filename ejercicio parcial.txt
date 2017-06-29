@@ -1,0 +1,54 @@
+Algoritmo sin_titulo
+	Dimension A[4]
+	Dimension B[6]
+	Dimension C[10]
+	Dimension D[10]
+	Dimension E[10]
+	
+	Para i<-1 Hasta 4 con paso 1 Hacer
+		Escribir "Grupo 1: Ingrese el valor para la posicion ",i
+		Leer NUM1
+		A[i]<-NUM1
+	FinPara
+	
+	Para i<-1 hasta 4 con paso 1 hacer
+	Escribir "Los valores ingresados son: ",A[i]
+	finpara
+	
+	Para i<-1 Hasta 6 con paso 1 Hacer
+		Escribir "Grupo 2: Ingrese el valor para la posicion ",i
+		Leer NUM2
+		B[i]<-NUM2
+	FinPara
+	
+	Para i<-1 hasta 6 con paso 1 hacer
+		Escribir "Los valores ingresados son: ",B[i]
+	finpara
+	
+	Para i<-1 hasta 4 Con Paso 1 Hacer
+		C[i]=A[i]
+	FinPara
+	
+	Para i<-5 hasta 10 con paso 1 hacer
+		C[i]<-B[i-4]
+	FinPara
+	Escribir "La union de los dos grupos es: "
+	Para i<-1 hasta 10 con paso 1 hacer
+		escribir C[i]
+	FinPara
+	
+	Para i<-1 hasta 4 Con Paso 1 Hacer
+		D[i]=A[i]
+	FinPara
+	
+	Para i<-10 Hasta 5 Hacer
+		D[i]<-B[i-4]
+	FinPara
+	
+	Escribir "La union del grupo 1 con el inverso del 2 es: "
+	
+	Para i<-1 hasta 10 con paso 1 Hacer
+		Escribir D[i]
+	FinPara
+	
+FinAlgoritmo
